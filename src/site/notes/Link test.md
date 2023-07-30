@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Link test/","dgShowLocalGraph":true,"dgEnableSearch":false}
+{"dg-publish":true,"permalink":"/Link test/","dgShowInlineTitle":true,"dgShowTags":true}
 ---
 
 This page links to [the homepage](Hey)
