@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Hmmmm/","dgShowLocalGraph":true,"dgEnableSearch":false}
+{"dg-publish":true,"permalink":"/Hmmmm/"}
 ---
 
 What a surprise !
