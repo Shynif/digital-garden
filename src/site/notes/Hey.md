@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Hey/","tags":["gardenEntry"],"dgShowLocalGraph":true,"dgEnableSearch":false}
+{"dg-publish":true,"permalink":"/Hey/","tags":["gardenEntry"],"dgHomeLink":true}
 ---
 
 
