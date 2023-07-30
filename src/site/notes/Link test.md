@@ -1,8 +1,8 @@
 ---
-{"dg-publish":true,"permalink":"/Link test/","tags":["Michael's Soft Binbows, testing B)"]}
+{"dg-publish":true,"permalink":"/Link test/","tags":["Michaelsoft Binbows","testing B)"]}
 ---
 
-This page links to [the homepage](Hey)
+This page links to [[Hey\|the homepage]]
 (Wait you can also do this [[Hmmmm\|?!?!???!!?]])
 
 # btw here are more tests
