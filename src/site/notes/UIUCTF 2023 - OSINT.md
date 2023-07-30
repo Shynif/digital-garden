@@ -71,7 +71,7 @@ We will try to spot theses "obvious" architectural elements from the given pictu
 
 ![image-20230703151236731.png|100](/img/user/imgTypora/image-20230703151236731.png) and ![image-20230703151254295.png|100](/img/user/imgTypora/image-20230703151254295.png)
 
-Why theses? By looking on Google Earth there is ~4 antennas and ~2 round buildings. Let's find the needle ᕕ( ᐛ )ᕗ
+Why theses? By looking on Google Earth there are ~4 antennas and ~2 round buildings. Let's find the needle ᕕ( ᐛ )ᕗ
 
 ![image-20230703151627560.png](/img/user/imgTypora/image-20230703151627560.png)
 
