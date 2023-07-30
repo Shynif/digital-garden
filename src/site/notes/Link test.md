@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Link test/","dgShowInlineTitle":true,"dgShowTags":true}
+{"dg-publish":true,"permalink":"/Link test/","tags":["Michaels'SoftBinbows"],"dgShowTags":true}
 ---
 
 This page links to [the homepage](Hey)
