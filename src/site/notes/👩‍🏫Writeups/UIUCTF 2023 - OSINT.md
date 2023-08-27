@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/👩‍🏫Writeups/UIUCTF 2023 - OSINT/"}
+{"dg-publish":true,"permalink":"/👩‍🏫Writeups/UIUCTF 2023 - OSINT/","tags":["Writeup","OSINT","UIUCTF"]}
 ---
 
 # UIUCTF 2023 - OSINT ┻┳|･ω･)
