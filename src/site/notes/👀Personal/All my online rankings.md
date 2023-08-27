@@ -9,7 +9,7 @@
 # CTF
 - [RootMe](https://www.root-me.org/Shynif?lang=fr#bf279d8b29572d2c3edfd490e2b16864)
 - HackTheBox (2/469 challenges + 7 first machines)
-- [Challenge-OSINT.fr](https://ctf.challenge-osint.fr/teams) (56ème)
+- [Challenge-OSINT.fr](https://ctf.challenge-osint.fr/teams) (56th)
 # Games
 - [Surfheaven](https://surfheaven.eu/player/317644955)
 
