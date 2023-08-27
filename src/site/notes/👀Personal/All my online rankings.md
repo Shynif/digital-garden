@@ -7,7 +7,7 @@
 - [Leetcode](https://leetcode.com/Shynif/)
 - Project Euler (19/851 solved)
 # CTF
-- [RootMe](https://www.root-me.org/Shynif?lang=fr#bf279d8b29572d2c3edfd490e2b16864) (~400 points sur 1000 visés fin 2023)
+- [RootMe](https://www.root-me.org/Shynif?lang=fr#bf279d8b29572d2c3edfd490e2b16864)
 - HackTheBox (2/469 challenges + 7 first machines)
 - [Challenge-OSINT.fr](https://ctf.challenge-osint.fr/teams) (56ème)
 # Games
