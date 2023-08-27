@@ -13,12 +13,8 @@
 # Games
 - [Surfheaven](https://surfheaven.eu/player/317644955)
 
-
-
-
-
+---
 # TO WORK ON / START
-- 
 - https://ctf.predictalab.fr/challenges
 - https://pwn.college
 - https://theblackside.fr/challenges/
