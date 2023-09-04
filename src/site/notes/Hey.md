@@ -9,3 +9,7 @@ On this website you can find :
 - coding / hacking / OSINT notes
 - Games reviews
 - personal pages
+
+
+
+<p style="font-family:'Courier New',monospace;margin-left:70%">hey<br>ily<br>shy</p>
