@@ -10,3 +10,7 @@ Use **searX** *(SearXNG preferably)*
 - specific sites (ex: Reddit, Twitter, Facebook | Flickr, Giffy, Imgur | ...)
 
 List of all SearXNG instances available on [searx.space](https://searx.space/)
+
+## Image search
+- Google Lens 👌
+- Yandex Image  💯
