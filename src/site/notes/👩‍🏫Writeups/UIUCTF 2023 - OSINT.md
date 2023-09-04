@@ -18,7 +18,7 @@
 
 ​	"Excellent One"; NYC; museum; coveted; bronze statue; "Ma..."; Asia
 
-The Asian hint is pretty hard to find throught normal search so I chose `Google search for images`. By using some Google search tips like *"Excellent One"* to find a precise name and *Ma\** to find a statue name beginning with "Ma" we can find some interesting results :
+The Asian hint is pretty hard to find through normal search so I chose `Google search for images`. By using some Google search tips like *"Excellent One"* to find a precise name and *Ma\** to find a statue name beginning with "Ma" we can find some interesting results :
 
 <center>Searched: <b>"Excellent One" NYC museum bronze statue Ma*</b></center>
 
