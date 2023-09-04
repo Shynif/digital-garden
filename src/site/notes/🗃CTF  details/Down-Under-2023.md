@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/🗃CTF  details/Down-Under-2023/","hide":true,"tags":["Wrap-up","Good","DownUnder"]}
+{"dg-publish":true,"permalink":"/🗃CTF  details/Down-Under-2023/","tags":["Wrap-up","Good","DownUnder"]}
 ---
 
 # Down Under 2023 🦘
