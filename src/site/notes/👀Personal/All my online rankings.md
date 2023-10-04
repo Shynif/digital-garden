@@ -5,7 +5,7 @@
 # Coding
 - [Codewars](https://www.codewars.com/users/Shynif) <img src="https://www.codewars.com/users/Shynif/badges/micro">
 - [Leetcode](https://leetcode.com/Shynif/)
-- Project Euler (19/851 solved)
+- Project Euler <img src="https://projecteuler.net/profile/Shynif.png">
 # Long running CTFs
 - [RootMe](https://www.root-me.org/Shynif?lang=fr#bf279d8b29572d2c3edfd490e2b16864)
 - [Newbie Contest](https://www.newbiecontest.org/index.php?page=info_membre&id=95667)
@@ -22,5 +22,6 @@
 - https://microcorruption.com/map
 - https://imaginaryctf.org
 - https://sourcing.games
+- kaggle
 - https://code.golf
 - [TryHackMe](https://tryhackme.com/)
