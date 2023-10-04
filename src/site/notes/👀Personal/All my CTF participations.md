@@ -3,6 +3,8 @@
 ---
 
 # All my CTF participations
+- [[🗃CTF  details/MapleCTF-2023\|MapleCTF 2023]]
+- [[🗃CTF  details/VSCTF-2023\|vsCTF 2023]]
 - [[🗃CTF  details/Down-Under-2023\|DownUnderCTF 2023]]
 - WMCTF2023
 - Imaginary CTF 2023
