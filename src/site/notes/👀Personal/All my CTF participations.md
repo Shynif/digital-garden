@@ -17,4 +17,6 @@
 - UTCTF 2023
 - CTF de l'avent 2022
 
+---
+
 	⭐: Qualified for finals
