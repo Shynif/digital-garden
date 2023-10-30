@@ -3,6 +3,7 @@
 ---
 
 # All my CTF participations
+- [[🗃CTF  details/ECW-2023\|ECW 2023]] ⭐
 - [[🗃CTF  details/MapleCTF-2023\|MapleCTF 2023]]
 - [[🗃CTF  details/VSCTF-2023\|vsCTF 2023]]
 - [[🗃CTF  details/Down-Under-2023\|DownUnderCTF 2023]]
@@ -15,3 +16,5 @@
 - BYUCTF 2023
 - UTCTF 2023
 - CTF de l'avent 2022
+
+	⭐: Qualified for finals
