@@ -3,7 +3,7 @@
 ---
 
 # All my CTF participations
-- LakeCTF 2023
+- [[🗃CTF  details/LakeCTF-2023\|LakeCTF 2023]]
 - [[🗃CTF  details/ECW-2023\|ECW 2023]]
 - [[🗃CTF  details/MapleCTF-2023\|MapleCTF 2023]]
 - [[🗃CTF  details/VSCTF-2023\|vsCTF 2023]]
