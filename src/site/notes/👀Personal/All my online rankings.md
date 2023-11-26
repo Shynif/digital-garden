@@ -11,8 +11,7 @@
 - [Newbie Contest](https://www.newbiecontest.org/index.php?page=info_membre&id=95667)
 - HackTheBox (2/469 challenges + 7 first machines)
 - [Challenge-OSINT.fr](https://ctf.challenge-osint.fr/teams) (56th)
-# Games
-- [Surfheaven](https://surfheaven.eu/player/317644955)
+
 
 ---
 # TO WORK ON / START
