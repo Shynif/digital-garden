@@ -7,7 +7,6 @@
 On this website you can find :
 - writeups
 - coding / hacking / OSINT notes
-- Games reviews
 - personal pages
 
 
