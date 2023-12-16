@@ -3,6 +3,7 @@
 ---
 
 # All my CTF participations
+- [[🗃CTF  details/NewportBlake-2023\|Newport Blake CTF 2023]] ☕
 - [[🗃CTF  details/ECW-2023-final\|ECW 2023 Finals]]
 - [[🗃CTF  details/LakeCTF-2023\|LakeCTF 2023]]
 - [[🗃CTF  details/ECW-2023\|ECW 2023]] ⭐
@@ -21,4 +22,5 @@
 
 ---
 
-	⭐: Qualified for finals
+>⭐: Qualified for finals
+>☕: Played with [C₈Hack₁₀N₄O₂](https://ctftime.org/team/276420)
