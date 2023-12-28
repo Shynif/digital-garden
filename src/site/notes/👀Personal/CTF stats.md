@@ -90,7 +90,19 @@ const data = [
 const labels = ['DownUnderCTF 2023','vsCTF 2023','MapleCTF 2023','ECW 2023','LakeCTF 2023', 'NewportBlakeCTF 2023'];
 
 
-const composedData = {
+//const composedData = ;
+
+
+/*const chartData = {
+
+};
+
+
+window.renderChart(chartData, this.container);*/
+
+new Chart(ctxh, {
+  type: 'bar',
+  data: {
   labels: labels,
   datasets: [
     {
@@ -154,19 +166,7 @@ const composedData = {
       parsing: { xAxisKey: 'for', yAxisKey: 'for' }
     }
   ]
-};
-
-
-/*const chartData = {
-
-};
-
-
-window.renderChart(chartData, this.container);*/
-
-new Chart(ctxh, {
-  type: 'bar',
-  data: composedData,
+},
   options: {
     responsive: true,
     scales: {
