@@ -76,7 +76,7 @@ type: 'polarArea',
 <script>
 
 
-const ctx = document.getElementById('HistoChart');
+const ctxh = document.getElementById('HistoChart');
 
 const data = [
 	{rev:0, pwn:0, oth:0, osi:5, ste:0, pro:0, mis:6, web:0, cry:1, for:0},
@@ -164,7 +164,7 @@ const composedData = {
 
 window.renderChart(chartData, this.container);*/
 
-new Chart(ctx, {
+new Chart(ctxh, {
   type: 'bar',
   data: composedData,
   options: {
