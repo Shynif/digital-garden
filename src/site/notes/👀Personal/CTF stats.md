@@ -4,23 +4,25 @@
 
 # Stats
 ## Flags per categories and overall progression
-<canvas height="0" width="0" style="display: block; box-sizing: border-box; height: 0px; width: 0px;"></canvas>
-
-
 
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
 
 <div>
-  <canvas id="myChart"></canvas>
+  <canvas id="HistoChart"></canvas>
 </div>
+
+<div>
+  <canvas id="NicePolarChart"></canvas>
+</div>
+
 
 
 
 <script>
 
 
-const ctx = document.getElementById('myChart');
+const ctx = document.getElementById('NicePolarChart');
 
 const data = [
 	{rev:0, pwn:0, oth:0, osi:5, ste:0, pro:0, mis:6, web:0, cry:1, for:0},
@@ -63,5 +65,119 @@ type: 'polarArea',
 })
 
 //window.renderChart(chartData, this.container);
+
+</script>
+
+
+
+
+
+
+<script>
+
+
+const ctx = document.getElementById('HistoChart');
+
+const data = [
+	{rev:0, pwn:0, oth:0, osi:5, ste:0, pro:0, mis:6, web:0, cry:1, for:0},
+	{rev:0, pwn:0, oth:0, osi:0, ste:0, pro:0, mis:0, web:0, cry:0, for:0},
+	{rev:0, pwn:0, oth:0, osi:0, ste:0, pro:0, mis:1, web:0, cry:0, for:0},
+	{rev:1, pwn:0, oth:0, osi:1, ste:0, pro:3, mis:0, web:2, cry:1, for:1},
+	{rev:1, pwn:0, oth:0, osi:0, ste:0, pro:0, mis:1, web:0, cry:0, for:0},
+	{rev:2, pwn:0, oth:0, osi:6, ste:0, pro:0, mis:3, web:0, cry:0, for:0}
+]
+
+const labels = ['DownUnderCTF 2023','vsCTF 2023','MapleCTF 2023','ECW 2023','LakeCTF 2023', 'NewportBlakeCTF 2023'];
+
+
+const composedData = {
+  labels: labels,
+  datasets: [
+    {
+      label: 'Reverse',
+      data: data,
+      backgroundColor: '#D741A7',
+      parsing: { xAxisKey: 'rev', yAxisKey: 'rev' }
+    },
+    {
+      label: 'Pwn',
+      data: data,
+      backgroundColor: '#892C8D',
+      parsing: { xAxisKey: 'pwn', yAxisKey: 'pwn' }
+    },
+    {
+      label: 'Other',
+      data: data,
+      backgroundColor: '#3A1772',
+      parsing: { xAxisKey: 'oth', yAxisKey: 'oth' }
+    },
+    {
+      label: 'OSINT',
+      data: data,
+      backgroundColor: '#475898',
+      parsing: { xAxisKey: 'osi', yAxisKey: 'osi' }
+    },
+    {
+      label: 'Steg',
+      data: data,
+      backgroundColor: '#5398BE',
+      parsing: { xAxisKey: 'ste', yAxisKey: 'ste' }
+    },
+    {
+      label: 'Programming',
+      data: data,
+      backgroundColor: '#7BA6A6',
+      parsing: { xAxisKey: 'pro', yAxisKey: 'pro' }
+    },
+    {
+      label: 'Misc',
+      data: data,
+      backgroundColor: '#A3B38E',
+      parsing: { xAxisKey: 'mis', yAxisKey: 'mis' }
+    },
+    {
+      label: 'Web',
+      data: data,
+      backgroundColor: '#F2CD5D',
+      parsing: { xAxisKey: 'web', yAxisKey: 'web' }
+    },
+    {
+      label: 'Crypto',
+      data: data,
+      backgroundColor: '#E8B954',
+      parsing: { xAxisKey: 'cry', yAxisKey: 'cry' }
+    },
+    {
+      label: 'Forensics',
+      data: data,
+      backgroundColor: '#DEA54B',
+      parsing: { xAxisKey: 'for', yAxisKey: 'for' }
+    }
+  ]
+};
+
+
+/*const chartData = {
+
+};
+
+
+window.renderChart(chartData, this.container);*/
+
+new Chart(ctx, {
+  type: 'bar',
+  data: composedData,
+  options: {
+    responsive: true,
+    scales: {
+      x: {
+        stacked: true,
+      },
+      y: {
+        stacked: true
+      }
+    }
+  }
+}
 
 </script>
