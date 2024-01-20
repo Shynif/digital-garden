@@ -104,63 +104,73 @@ new Chart(ctxh, {
   type: 'bar',
   data: {
   labels: labelsH,
-  [
+  datasets: [
     {
       label: 'Reverse',
+      xAxisID: 'xAxis1',
       data: datah,
       backgroundColor: '#D741A7',
       parsing: { xAxisKey: 'rev', yAxisKey: 'rev' }
     },
     {
       label: 'Pwn',
+      xAxisID: 'xAxis2',
       data: datah,
       backgroundColor: '#892C8D',
       parsing: { xAxisKey: 'pwn', yAxisKey: 'pwn' }
     },
     {
       label: 'Other',
+      xAxisID: 'xAxis3',
       data: datah,
       backgroundColor: '#3A1772',
       parsing: { xAxisKey: 'oth', yAxisKey: 'oth' }
     },
     {
       label: 'OSINT',
+      xAxisID: 'xAxis4',
       data: datah,
       backgroundColor: '#475898',
       parsing: { xAxisKey: 'osi', yAxisKey: 'osi' }
     },
     {
       label: 'Steg',
+      xAxisID: 'xAxis5',
       data: datah,
       backgroundColor: '#5398BE',
       parsing: { xAxisKey: 'ste', yAxisKey: 'ste' }
     },
     {
       label: 'Programming',
+      xAxisID: 'xAxis6',
       data: datah,
       backgroundColor: '#7BA6A6',
       parsing: { xAxisKey: 'pro', yAxisKey: 'pro' }
     },
     {
       label: 'Misc',
+      xAxisID: 'xAxis7',
       data: datah,
       backgroundColor: '#A3B38E',
       parsing: { xAxisKey: 'mis', yAxisKey: 'mis' }
     },
     {
       label: 'Web',
+      xAxisID: 'xAxis8',
       data: datah,
       backgroundColor: '#F2CD5D',
       parsing: { xAxisKey: 'web', yAxisKey: 'web' }
     },
     {
       label: 'Crypto',
+      xAxisID: 'xAxis9',
       data: datah,
       backgroundColor: '#E8B954',
       parsing: { xAxisKey: 'cry', yAxisKey: 'cry' }
     },
     {
       label: 'Forensics',
+      xAxisID: 'xAxis10',
       data: datah,
       backgroundColor: '#DEA54B',
       parsing: { xAxisKey: 'for', yAxisKey: 'for' }
