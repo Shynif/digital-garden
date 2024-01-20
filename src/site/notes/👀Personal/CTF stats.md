@@ -78,7 +78,7 @@ type: 'polarArea',
 
 const ctxh = document.getElementById('HistoChart');
 
-const data = [
+const datah = [
 	{rev:0, pwn:0, oth:0, osi:5, ste:0, pro:0, mis:6, web:0, cry:1, for:0},
 	{rev:0, pwn:0, oth:0, osi:0, ste:0, pro:0, mis:0, web:0, cry:0, for:0},
 	{rev:0, pwn:0, oth:0, osi:0, ste:0, pro:0, mis:1, web:0, cry:0, for:0},
@@ -107,61 +107,61 @@ new Chart(ctxh, {
   datasets: [
     {
       label: 'Reverse',
-      data: data,
+      data: datah,
       backgroundColor: '#D741A7',
       parsing: { xAxisKey: 'rev', yAxisKey: 'rev' }
     },
     {
       label: 'Pwn',
-      data: data,
+      data: datah,
       backgroundColor: '#892C8D',
       parsing: { xAxisKey: 'pwn', yAxisKey: 'pwn' }
     },
     {
       label: 'Other',
-      data: data,
+      data: datah,
       backgroundColor: '#3A1772',
       parsing: { xAxisKey: 'oth', yAxisKey: 'oth' }
     },
     {
       label: 'OSINT',
-      data: data,
+      data: datah,
       backgroundColor: '#475898',
       parsing: { xAxisKey: 'osi', yAxisKey: 'osi' }
     },
     {
       label: 'Steg',
-      data: data,
+      data: datah,
       backgroundColor: '#5398BE',
       parsing: { xAxisKey: 'ste', yAxisKey: 'ste' }
     },
     {
       label: 'Programming',
-      data: data,
+      data: datah,
       backgroundColor: '#7BA6A6',
       parsing: { xAxisKey: 'pro', yAxisKey: 'pro' }
     },
     {
       label: 'Misc',
-      data: data,
+      data: datah,
       backgroundColor: '#A3B38E',
       parsing: { xAxisKey: 'mis', yAxisKey: 'mis' }
     },
     {
       label: 'Web',
-      data: data,
+      data: datah,
       backgroundColor: '#F2CD5D',
       parsing: { xAxisKey: 'web', yAxisKey: 'web' }
     },
     {
       label: 'Crypto',
-      data: data,
+      data: datah,
       backgroundColor: '#E8B954',
       parsing: { xAxisKey: 'cry', yAxisKey: 'cry' }
     },
     {
       label: 'Forensics',
-      data: data,
+      data: datah,
       backgroundColor: '#DEA54B',
       parsing: { xAxisKey: 'for', yAxisKey: 'for' }
     }
