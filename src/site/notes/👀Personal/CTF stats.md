@@ -166,7 +166,7 @@ new Chart(ctxh, {
       //parsing: { xAxisKey: 'for', yAxisKey: 'for' }
     }
   ]
-},
+}/*,
   options: {
     responsive: true,
     scales: {
@@ -177,7 +177,7 @@ new Chart(ctxh, {
         stacked: true
       }
     }
-  }
+  }*/
 }
 
 </script>
