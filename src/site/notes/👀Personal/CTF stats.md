@@ -107,63 +107,63 @@ new Chart(ctxh, {
   datasets: [
     {
       label: 'Reverse',
-      data: datah,
-      backgroundColor: '#D741A7',
-      parsing: { xAxisKey: 'rev', yAxisKey: 'rev' }
+      data: [0,0,0,1,1,2],
+      backgroundColor: '#D741A7'//,
+      //parsing: { xAxisKey: 'rev', yAxisKey: 'rev' }
     },
     {
       label: 'Pwn',
-      data: datah,
-      backgroundColor: '#892C8D',
-      parsing: { xAxisKey: 'pwn', yAxisKey: 'pwn' }
+      data: [0,0,0,0,0,0],
+      backgroundColor: '#892C8D'//,
+      //parsing: { xAxisKey: 'pwn', yAxisKey: 'pwn' }
     },
     {
       label: 'Other',
-      data: datah,
-      backgroundColor: '#3A1772',
-      parsing: { xAxisKey: 'oth', yAxisKey: 'oth' }
+      data: [0,0,0,0,0,0],
+      backgroundColor: '#3A1772'//,
+      //parsing: { xAxisKey: 'oth', yAxisKey: 'oth' }
     },
     {
       label: 'OSINT',
-      data: datah,
-      backgroundColor: '#475898',
-      parsing: { xAxisKey: 'osi', yAxisKey: 'osi' }
+      data: [5,0,0,1,0,6],
+      backgroundColor: '#475898'//,
+      //parsing: { xAxisKey: 'osi', yAxisKey: 'osi' }
     },
     {
       label: 'Steg',
-      data: datah,
-      backgroundColor: '#5398BE',
-      parsing: { xAxisKey: 'ste', yAxisKey: 'ste' }
+      data: [0,0,0,0,0,0],
+      backgroundColor: '#5398BE'//,
+      //parsing: { xAxisKey: 'ste', yAxisKey: 'ste' }
     },
     {
       label: 'Programming',
-      data: datah,
-      backgroundColor: '#7BA6A6',
-      parsing: { xAxisKey: 'pro', yAxisKey: 'pro' }
+      data: [0,0,0,3,0,0],
+      backgroundColor: '#7BA6A6'//,
+      //parsing: { xAxisKey: 'pro', yAxisKey: 'pro' }
     },
     {
       label: 'Misc',
-      data: datah,
-      backgroundColor: '#A3B38E',
-      parsing: { xAxisKey: 'mis', yAxisKey: 'mis' }
+      data: [6,0,1,0,1,3],
+      backgroundColor: '#A3B38E'//,
+      //parsing: { xAxisKey: 'mis', yAxisKey: 'mis' }
     },
     {
       label: 'Web',
-      data: datah,
-      backgroundColor: '#F2CD5D',
-      parsing: { xAxisKey: 'web', yAxisKey: 'web' }
+      data: [0,0,0,2,0,0],
+      backgroundColor: '#F2CD5D'//,
+      //parsing: { xAxisKey: 'web', yAxisKey: 'web' }
     },
     {
       label: 'Crypto',
-      data: datah,
-      backgroundColor: '#E8B954',
-      parsing: { xAxisKey: 'cry', yAxisKey: 'cry' }
+      data: [1,0,0,1,0,0],
+      backgroundColor: '#E8B954'//,
+      //parsing: { xAxisKey: 'cry', yAxisKey: 'cry' }
     },
     {
       label: 'Forensics',
-      data: datah,
-      backgroundColor: '#DEA54B',
-      parsing: { xAxisKey: 'for', yAxisKey: 'for' }
+      data: [0,0,0,1,0,0],
+      backgroundColor: '#DEA54B'//,
+      //parsing: { xAxisKey: 'for', yAxisKey: 'for' }
     }
   ]
 },
