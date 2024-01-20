@@ -52,7 +52,7 @@ const bkCols = ['#D741A7','#892C8D','#3A1772','#475898','#5398BE','#7BA6A6','#A3
   
 };*/
 
-/*new Chart(ctx, {
+new Chart(ctx, {
 type: 'polarArea',
   data: {
 	  labels: labels,
@@ -62,7 +62,7 @@ type: 'polarArea',
 		  backgroundColor: bkCols
 	  }]
   }
-})*/
+})
 
 //window.renderChart(chartData, this.container);
 
