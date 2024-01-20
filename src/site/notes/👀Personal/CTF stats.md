@@ -78,7 +78,7 @@ type: 'polarArea',
 
 const ctxh = document.getElementById('HistoChart');
 
-const data = {
+const dataH = {
     labels: ['Category 1', 'Category 2'],
     datasets: [
       {
@@ -113,7 +113,7 @@ const data = {
 
   const marimekkoChart = new Chart(ctxh, {
     type: 'bar',
-    data: data,
+    data: dataH,
   });
 
 
