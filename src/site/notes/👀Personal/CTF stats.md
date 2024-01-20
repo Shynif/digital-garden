@@ -87,7 +87,7 @@ const datah = [
 	{rev:2, pwn:0, oth:0, osi:6, ste:0, pro:0, mis:3, web:0, cry:0, for:0}
 ]
 
-const labels = ['DownUnderCTF 2023','vsCTF 2023','MapleCTF 2023','ECW 2023','LakeCTF 2023', 'NewportBlakeCTF 2023'];
+const labelsH = ['DownUnderCTF 2023','vsCTF 2023','MapleCTF 2023','ECW 2023','LakeCTF 2023', 'NewportBlakeCTF 2023'];
 
 
 //const composedData = ;
@@ -103,70 +103,70 @@ window.renderChart(chartData, this.container);*/
 new Chart(ctxh, {
   type: 'bar',
   data: {
-  labels: labels,
-  datasets: [
+  labels: labelsH,
+  [
     {
       label: 'Reverse',
-      data: [0,0,0,1,1,2],
-      backgroundColor: '#D741A7'//,
-      //parsing: { xAxisKey: 'rev', yAxisKey: 'rev' }
+      data: datah,
+      backgroundColor: '#D741A7',
+      parsing: { xAxisKey: 'rev', yAxisKey: 'rev' }
     },
     {
       label: 'Pwn',
-      data: [0,0,0,0,0,0],
-      backgroundColor: '#892C8D'//,
-      //parsing: { xAxisKey: 'pwn', yAxisKey: 'pwn' }
+      data: datah,
+      backgroundColor: '#892C8D',
+      parsing: { xAxisKey: 'pwn', yAxisKey: 'pwn' }
     },
     {
       label: 'Other',
-      data: [0,0,0,0,0,0],
-      backgroundColor: '#3A1772'//,
-      //parsing: { xAxisKey: 'oth', yAxisKey: 'oth' }
+      data: datah,
+      backgroundColor: '#3A1772',
+      parsing: { xAxisKey: 'oth', yAxisKey: 'oth' }
     },
     {
       label: 'OSINT',
-      data: [5,0,0,1,0,6],
-      backgroundColor: '#475898'//,
-      //parsing: { xAxisKey: 'osi', yAxisKey: 'osi' }
+      data: datah,
+      backgroundColor: '#475898',
+      parsing: { xAxisKey: 'osi', yAxisKey: 'osi' }
     },
     {
       label: 'Steg',
-      data: [0,0,0,0,0,0],
-      backgroundColor: '#5398BE'//,
-      //parsing: { xAxisKey: 'ste', yAxisKey: 'ste' }
+      data: datah,
+      backgroundColor: '#5398BE',
+      parsing: { xAxisKey: 'ste', yAxisKey: 'ste' }
     },
     {
       label: 'Programming',
-      data: [0,0,0,3,0,0],
-      backgroundColor: '#7BA6A6'//,
-      //parsing: { xAxisKey: 'pro', yAxisKey: 'pro' }
+      data: datah,
+      backgroundColor: '#7BA6A6',
+      parsing: { xAxisKey: 'pro', yAxisKey: 'pro' }
     },
     {
       label: 'Misc',
-      data: [6,0,1,0,1,3],
-      backgroundColor: '#A3B38E'//,
-      //parsing: { xAxisKey: 'mis', yAxisKey: 'mis' }
+      data: datah,
+      backgroundColor: '#A3B38E',
+      parsing: { xAxisKey: 'mis', yAxisKey: 'mis' }
     },
     {
       label: 'Web',
-      data: [0,0,0,2,0,0],
-      backgroundColor: '#F2CD5D'//,
-      //parsing: { xAxisKey: 'web', yAxisKey: 'web' }
+      data: datah,
+      backgroundColor: '#F2CD5D',
+      parsing: { xAxisKey: 'web', yAxisKey: 'web' }
     },
     {
       label: 'Crypto',
-      data: [1,0,0,1,0,0],
-      backgroundColor: '#E8B954'//,
-      //parsing: { xAxisKey: 'cry', yAxisKey: 'cry' }
+      data: datah,
+      backgroundColor: '#E8B954',
+      parsing: { xAxisKey: 'cry', yAxisKey: 'cry' }
     },
     {
       label: 'Forensics',
-      data: [0,0,0,1,0,0],
-      backgroundColor: '#DEA54B'//,
-      //parsing: { xAxisKey: 'for', yAxisKey: 'for' }
+      data: datah,
+      backgroundColor: '#DEA54B',
+      parsing: { xAxisKey: 'for', yAxisKey: 'for' }
     }
   ]
-}/*,
+},
   options: {
     responsive: true,
     scales: {
@@ -177,7 +177,7 @@ new Chart(ctxh, {
         stacked: true
       }
     }
-  }*/
+  }
 }
 
 </script>
