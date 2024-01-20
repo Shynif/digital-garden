@@ -12,6 +12,12 @@
   <canvas id="HistoChart"></canvas>
 </div>
 
+<br>
+
+---
+
+<br>
+
 <div>
   <canvas id="NicePolarChart"></canvas>
 </div>
