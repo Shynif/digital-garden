@@ -7,7 +7,7 @@
 ## Performance
 Aimed to flag 100% as it was a very simple CTF for highschool players. Ended up being a one man CTF as I was the only player in the team to work on it during the entire weekend (or just to work on it more than an hour 😔)
 
-Rank: *40th with *4751 points*
+Rank: *40th* with *4751 points*
 	I scored *4280 points* with *11 challenges solved* (23% of the CTF) 🥳
 
 ## How to improve 📝
