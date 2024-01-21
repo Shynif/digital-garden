@@ -3,6 +3,7 @@
 ---
 
 # All my CTF participations
+- [[🗃CTF  details/Hackday-2024\|HackDay 2024]] ☕⭐
 - [[🗃CTF  details/NewportBlake-2023\|Newport Blake CTF 2023]] ☕
 - [[🗃CTF  details/ECW-2023-final\|ECW 2023 Finals]]
 - [[🗃CTF  details/LakeCTF-2023\|LakeCTF 2023]]
