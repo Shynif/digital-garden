@@ -2,7 +2,7 @@
 {"dg-publish":true,"permalink":"/C₈Hack₁₀N₄O₂/"}
 ---
 
-# C₈Hack₁₀N₄O₂
+# C₈Hack₁₀N₄O₂ ☕
 
 Small french team composed only of sophomores from [ENSIBS](https://www-ensibs.univ-ubs.fr/fr/index.html)
 We play to train our skills and show our love for cybersecurity
