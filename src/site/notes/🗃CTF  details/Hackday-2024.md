@@ -14,7 +14,7 @@
 > - [Skarkios](https://www.root-me.org/Skarkios) our Multitask pillar 🏋️
 > Maybe some don't have a lot of points on the leaderboard but we mostly worked 3 at a time on difficult challenges. Over 60% of our flags come from pure team effort 💪
 
-## Performance
+## Performance 🏆
 One challenge away from **full wipe**. One first blood, almost got 3 but lost minutes away. Top 10 quite a long time but ended 12th. Almost a perfect performance, at least one to be proud of.
 
 Rank: *12th* with *4954 points* 🤯🎉
