@@ -2,7 +2,7 @@
 {"dg-publish":true,"permalink":"/👀Personal/CTF stats/"}
 ---
 
-# Stats
+# Stats 📊
 ## Flags per categories and overall progression
 
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
