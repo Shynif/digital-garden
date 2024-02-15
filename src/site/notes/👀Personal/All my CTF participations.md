@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/👀Personal/All my CTF participations/"}
+{"dg-publish":true,"permalink":"/👀Personal/All my CTF participations/","dgShowLocalGraph":"true"}
 ---
 
 # All my CTF participations
