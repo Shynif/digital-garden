@@ -30,7 +30,6 @@
         let currentLink = decodeURI(window.location.pathname);
         let currentNode = remaining[currentLink] || Object.values(remaining).find((v) => v.home);
         console.log(remaining[currentLink]);
-        console.log(Object.values(remaining).find((v) => v.home)
         console.log(currentNode);
         delete remaining[currentNode.url];
         if (!currentNode.home) {
