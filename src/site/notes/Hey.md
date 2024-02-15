@@ -5,9 +5,9 @@
 <h1>Welcome ! <script>document.write(["👋😳","🤙","✌️","☄️✨","🏝️","🌍"][Math.floor(Math.random() * 5)])</script></h1>
 
 On this website you can find :
-- Writeups
+- [[👩‍🏫Writeups/ALL WRITEUPS\|Writeups]]
 - Some notes and stats
-- Personal pages
+- Personal pages and [[👀Personal/All my CTF participations\|recaps]]
 - Sometimes useful stuff
 
 
