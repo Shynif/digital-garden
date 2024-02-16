@@ -2,7 +2,7 @@
 {"dg-publish":true,"permalink":"/📝Notes/🐍Python/Basiques/T par compréhension/","tags":["Python"]}
 ---
 
-# \<T\> par compréhension
+# *Type* par compréhension
 
 ```python
 [<élément ajouté> for <var(s)> in <iter>]
