@@ -12,5 +12,10 @@ Besoin d'ouvrir un fichier =>
 Python regorge de modules prêts dès l'installation à résoudre tous vos problèmes !
 OS, Réseau, Types Abstraits de Donnés, Programmation Fonctionnel, ... Python a surement ce que vous souhaitez !
 
-> [!Très bon jeu à boire]
+> [!NOTE]
+> Tres bon jeu à boire :
 > Trouver des choses non supportés par Python natif
+
+
+
+### TODO: Liste de fonctions très utiles provenant de modules
