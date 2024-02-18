@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/📝Notes/🕵️‍♂️OSINT/OSINT Tools/","tags":["Tools","OSINT"]}
+{"dg-publish":true,"permalink":"/📝Notes/🕵️‍♂️OSINT/OSINT Tools/","hide":true,"tags":["Tools","OSINT"]}
 ---
 
 # OSINT Tools
