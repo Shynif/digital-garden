@@ -13,9 +13,12 @@ Active members of the team (we hope the list will increase)
 - [Saad](https://www.root-me.org/saad-rl)
 - [Juicy](https://www.root-me.org/Juicy-733646)
 - [Skarkios](https://www.root-me.org/Skarkios)
+- Shynif (me)
 - [Linlkin_prod](https://www.root-me.org/Linlkin)
 - [Blackxut](https://tryhackme.com/p/blackxut)
 - [Zeiven](https://www.root-me.org/Zeiven)
 - Zucchinii
+
+
 
 <a href="https://ctftime.org/team/276420"><img src="https://ctftime.org/static/images/ct/logo.svg" alt="CTFtime.org" border="0" width="191px"></a>
