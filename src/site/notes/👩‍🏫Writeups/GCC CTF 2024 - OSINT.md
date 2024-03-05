@@ -23,7 +23,7 @@
 > 
 > Last side note, as an excuse for tagging it as "Intro" difficulty, 3 testers all found it in under 20s (no jokes)
 
-
+<br><br>
 ### Which city?
 - Google "GCC ctf club"
 - Check Twitter or "association page" or LinkedIn page
@@ -34,7 +34,7 @@
 
 Many kept Lorient till the end. Reconsidering facts is really difficult for beginners and added way too much difficulty to the challenge. My apologies for it 😔
 
-
+<br><br>
 ### Sound page?
 Soundcloud or Bandcamp (or maybe a specific websites for music from cities)?
 
@@ -53,7 +53,7 @@ Let's start with the classic **Soundcloud**:
 
 
 
-
+<br><br><br><br>
 
 ## But they so tasty ... 😔🍰
 >Our OSINT teacher, sir Staffengaouehll, joined us in class dead tired.
@@ -73,7 +73,7 @@ Let's start with the classic **Soundcloud**:
 > Again, people were searching a bit too close to reality. Everyone looked for Staffengaouehll thinking it's a real identity. **So they looked for him in our school's teacher directory** 💀
 > It's true that some CTFs use real IDs but take it as a fact at the start. The internet lies keep caution.
 
-
+<br><br>
 ### Search for "Staffengaouehll"
 - Google: ``nothing :/``
 - Username search sites or scripts: ``nothing :/ (Well before someone created a skype account)``
@@ -86,7 +86,7 @@ Hmmmm really sneaky man. Let's go back to our intel. Let's search for Sport webs
 - Adidas Running
 - ...
 
-
+<br><br>
 ### Let's start with Strava! 🙂
 We search and find [one account](https://www.strava.com/athletes/126771692)!!!
 
@@ -103,7 +103,7 @@ So now we have one [running session](https://www.strava.com/activities/101366564
 ![Pasted image 20240304152450.png](/img/user/imgTypora/Pasted%20image%2020240304152450.png)
 ![Pasted image 20240304152510.png](/img/user/imgTypora/Pasted%20image%2020240304152510.png)
 
-
+<br><br>
 ### Where do the ~~babies~~ 2 coconut flan come from ?
 So, he spent a lot of time in a *supermarket*. It is not too far fetched (at least according to my chall's reviewer) that *he bought the flan from this supermarket*.
 
@@ -122,7 +122,7 @@ Yeah sorry you need to search for "flan coco" instead... Just **jump from links 
 > 
 > The chall' was based on [another flan](https://www.carrefour.fr/p/flan-patissier-aux-oeufs-frais-carrefour-bon-app-3560070391011). An heavily industrial Carrefour branded flan version that had a nutritional table on the back of it. I kept it until they added the nutritional table to normal products 👀 then I switched.
 
-
+<br><br>
 ### _Slaps flan_ This bad boy can fit so many _Jouls_
 BrØther...
 ![Pasted image 20240304154019.png](/img/user/imgTypora/Pasted%20image%2020240304154019.png)
@@ -140,7 +140,7 @@ $${2,69 \over 6,90} \times {1000} \times {761 \over 100} \approx 2966.7 \space k
 ---
 
 
-
+<br><br><br><br>
 
 
 ## Recap
@@ -155,7 +155,7 @@ As a chall-maker I learned a lot too! 📝 I need to make more precise challenge
 
 
 
-
+<br><br><br><br>
 
 
 # Memes 🤡💖
