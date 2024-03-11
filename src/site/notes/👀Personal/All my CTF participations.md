@@ -3,7 +3,8 @@
 ---
 
 # All my CTF participations
-- GCC CTF 2024 👷
+- Hackday 2024 Finals ☕
+- [[🗃CTF  details/2024/GCC-CTF-2024\|GCC CTF 2024]] 👷
 - [[🗃CTF  details/2024/Hackday-2024\|HackDay 2024]] ☕⭐
 - [[🗃CTF  details/2023/NewportBlake-2023\|Newport Blake CTF 2023]] ☕
 - Disparue(s) by OSCAR ZULU
