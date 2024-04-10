@@ -3,6 +3,7 @@
 ---
 
 # All my CTF participations
+- FCSC 2024 & Amateurs CTF 2024
 - Hackday 2024 Finals ☕
 - [[🗃CTF  details/2024/GCC-CTF-2024\|GCC CTF 2024]] 👷
 - [[🗃CTF  details/2024/Hackday-2024\|HackDay 2024]] ☕⭐
