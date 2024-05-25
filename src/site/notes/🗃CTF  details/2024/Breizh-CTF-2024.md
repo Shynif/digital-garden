@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/🗃CTF  details/2024/Breizh-CTF-2024/","tags":["Wrap-up","Perfect","Hackday"]}
+{"dg-publish":true,"permalink":"/🗃CTF  details/2024/Breizh-CTF-2024/","tags":["Wrap-up","Breizh","Mid"]}
 ---
 
 # Breizh 2024 🌊😋🌧️
