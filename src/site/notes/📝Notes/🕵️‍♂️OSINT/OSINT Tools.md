@@ -42,3 +42,4 @@ List of all SearXNG instances available on [searx.space](https://searx.space/)
 - https://github.com/Jieyab89/OSINT-Cheat-sheet
 - https://docs.google.com/spreadsheets/d/18rtqh8EG2q1xBo2cLNyhIDuK9jrPGwYr9DI2UncoqJQ/edit#gid=930747607
 - https://start.me/p/DPRM5o/oscar-zulu-toolbox
+- https://osintframework.com
