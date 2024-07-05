@@ -39,7 +39,8 @@ const data = [
 	{rev:2, pwn:0, oth:0, osi:6, ste:0, pro:0, mis:3, web:0, cry:0, for:0},
 	{rev:3, pwn:0, oth:0, osi:0, ste:2, pro:3, mis:3, web:3, cry:1, for:1},
 	{rev:0, pwn:0, oth:1, osi:4, ste:0, pro:0, mis:1, web:0, cry:1, for:0},
-	{rev:2, pwn:0, oth:0, osi:3, ste:0, pro:0, mis:3, web:0, cry:0, for:0}
+	{rev:2, pwn:0, oth:0, osi:3, ste:0, pro:0, mis:3, web:0, cry:0, for:0},
+	{rev:0, pwn:0, oth:0, osi:8, ste:0, pro:0, mis:0, web:0, cry:0, for:0}
 ]
 
 let summedData = [0,0,0,0,0,0,0,0,0,0]
@@ -96,10 +97,11 @@ const datah = [
 	{rev:2, pwn:0, oth:0, osi:6, ste:0, pro:0, mis:3, web:0, cry:0, for:0},
 	{rev:3, pwn:0, oth:0, osi:0, ste:2, pro:3, mis:3, web:3, cry:1, for:1},
 	{rev:0, pwn:0, oth:1, osi:4, ste:0, pro:0, mis:1, web:0, cry:1, for:0},
-	{rev:2, pwn:0, oth:0, osi:3, ste:0, pro:0, mis:3, web:0, cry:0, for:0}
+	{rev:2, pwn:0, oth:0, osi:3, ste:0, pro:0, mis:3, web:0, cry:0, for:0},
+	{rev:0, pwn:0, oth:0, osi:8, ste:0, pro:0, mis:0, web:0, cry:0, for:0}
 ]
 
-const labelsH = ['DownUnderCTF 2023','vsCTF 2023','MapleCTF 2023','ECW 2023','LakeCTF 2023', 'NewportBlakeCTF 2023', 'Hackday 2024', 'Hackday 2024 Finals', 'FCSC & Amateurs 2024'];
+const labelsH = ['DownUnderCTF 2023','vsCTF 2023','MapleCTF 2023','ECW 2023','LakeCTF 2023', 'NewportBlakeCTF 2023', 'Hackday 2024', 'Hackday 2024 Finals', 'FCSC & Amateurs 2024', 'Breizh CTF 2024'];
 
 
 const dataH = {
