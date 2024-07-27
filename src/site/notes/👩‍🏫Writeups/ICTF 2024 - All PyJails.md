@@ -58,7 +58,6 @@ while True:
 
 Now we can easily know *what blocked* and *where* if it's a banned character
 
-<br>
 ### Solving process
 1️⃣ First we don't have full execution (comes with an ``exec``) but we have an ``eval``. Meaning we *"""can't"""* write Python code but only *expressions* (No functions or statements). We don't care because we don't have builtins but it's something to note
 2️⃣ Secondly we can't use the UTF8 tricks because the characters' value are limited
@@ -355,7 +354,6 @@ If you want to read and discover more about **Audithooks-based PyJails**, I reco
 - [CTF Pyjail 沙箱逃逸绕过合集](https://xz.aliyun.com/t/12647)
 - [PEP 578 – Python Runtime Audit Hooks](https://peps.python.org/pep-0578/)
 - [Python Jail Escape CSAW Finals 2023](https://wachter-space.de/2023/11/12/csaw23-python-jail-escape/)
-
 
 
 ​		***See you next time! (˵ ͡~ ͜ʖ ͡°˵)ﾉ⌒♡\*:･。.***
