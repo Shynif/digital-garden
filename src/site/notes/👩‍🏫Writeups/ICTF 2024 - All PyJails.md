@@ -39,25 +39,25 @@ while True:
     
     for i in blacklist:
         if i in inp:
-            print("ok nice, bl") ### NEW
+            print("ok nice, bl")                                               ### NEW
             exit(0)
     
     for i in inp:
         if (ord(i) > 125) or (ord(i) < 40) or (len(set(inp))>17):
             print("ok nice, ct", (ord(i) > 125), (ord(i) < 40), len(set(inp))) ### NEW
-            print(inp) ### NEW
-            print("".join("#" if (ord(c) < 40) else "_" for c in inp)) ### NEW
+            print(inp)                                                         ### NEW
+            print("".join("#" if (ord(c) < 40) else "_" for c in inp))         ### NEW
             exit(0)
     
     try:
-        eval(inp,{'__builtins__':None,'ord':ord,'flag':flag}) ### NEW
+        eval(inp,{'__builtins__':None,'ord':ord,'flag':flag})                  ### NEW
         print("ok nice, eval-ed")
     except:
         print("error")
 ```
 
 Now we can easily know *what blocked* and *where* if it's a banned character
-<br>
+
 ### Solving process
 1️⃣ First we don't have full execution (comes with an ``exec``) but we have an ``eval``. Meaning we *"""can't"""* write Python code but only *expressions* (No functions or statements). We don't care because we don't have builtins but it's something to note
 2️⃣ Secondly we can't use the UTF8 tricks because the characters' value are limited
@@ -71,14 +71,13 @@ What we can aim for :
 - get flag's characters one by one (needs numbers -> possible)
 	- throw at specific value (needs a way to throw in our context -> surely needs compare)
 	- timing attack (needs a long execution time based on value -> surely needs loops)
-<br>
 #### Making numbers
 To access a specific character from the flag we need numbers. We have
 - 0 => ``False``
 - 1 => ``True``
 - n => ``True+True+...+True`` (we don't have a limit in length)
 - -n => ``-True-True-...-True``
-<br>
+
 #### Try 1 : low hanging fruits
 ```python
 {...}[flag[True]] # Dictionnary access, but no {} allowed
@@ -86,7 +85,7 @@ To access a specific character from the flag we need numbers. We have
 for(a)in(range(ord(flag[True]))):ord(flag[True])  # Hmmmmmm, no for and range in 'eval' tho
 [ord(flag[True])for(a)in(range(ord(flag[True])))] # Hmmmmmmmmmm
 ```
-<br>
+
 #### Try 2 : timing attack with homemade range and "for loop"
 How can we make a ``range`` ? Easy ! With **slices** !
 ```python
@@ -126,6 +125,7 @@ How do we decode the time ?
 | $x\times67^3$ | 84 => T (given)        | $t_2$ |
 | $x\times67^3$ | 70 => F (given)        | $t_3$ |
 | $x\times67^3$ | ...                    | $t_n$ |
+
 
 We can reverse the length of the flag and just do an simple cross product to find each flag's value, have fun 😈
 <br>
@@ -353,7 +353,6 @@ If you want to read and discover more about **Audithooks-based PyJails**, I reco
 - [PEP 578 – Python Runtime Audit Hooks](https://peps.python.org/pep-0578/)
 - [Python Jail Escape CSAW Finals 2023](https://wachter-space.de/2023/11/12/csaw23-python-jail-escape/)
 
-<br><br><br>
 
 ​		***See you next time! (˵ ͡~ ͜ʖ ͡°˵)ﾉ⌒♡\*:･。.***
 
