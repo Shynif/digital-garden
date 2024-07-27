@@ -72,7 +72,6 @@ What we can aim for :
 	- throw at specific value (needs a way to throw in our context -> surely needs compare)
 	- timing attack (needs a long execution time based on value -> surely needs loops)
 
-<br>
 #### Making numbers
 To access a specific character from the flag we need numbers. We have
 - 0 => ``False``
