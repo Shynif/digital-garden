@@ -57,7 +57,7 @@ while True:
 ```
 
 Now we can easily know *what blocked* and *where* if it's a banned character
-
+<br>
 ### Solving process
 1️⃣ First we don't have full execution (comes with an ``exec``) but we have an ``eval``. Meaning we *"""can't"""* write Python code but only *expressions* (No functions or statements). We don't care because we don't have builtins but it's something to note
 2️⃣ Secondly we can't use the UTF8 tricks because the characters' value are limited
@@ -71,13 +71,14 @@ What we can aim for :
 - get flag's characters one by one (needs numbers -> possible)
 	- throw at specific value (needs a way to throw in our context -> surely needs compare)
 	- timing attack (needs a long execution time based on value -> surely needs loops)
+<br>
 #### Making numbers
 To access a specific character from the flag we need numbers. We have
 - 0 => ``False``
 - 1 => ``True``
 - n => ``True+True+...+True`` (we don't have a limit in length)
 - -n => ``-True-True-...-True``
-
+<br>
 #### Try 1 : low hanging fruits
 ```python
 {...}[flag[True]] # Dictionnary access, but no {} allowed
@@ -85,7 +86,7 @@ To access a specific character from the flag we need numbers. We have
 for(a)in(range(ord(flag[True]))):ord(flag[True])  # Hmmmmmm, no for and range in 'eval' tho
 [ord(flag[True])for(a)in(range(ord(flag[True])))] # Hmmmmmmmmmm
 ```
-
+<br>
 #### Try 2 : timing attack with homemade range and "for loop"
 How can we make a ``range`` ? Easy ! With **slices** !
 ```python
@@ -125,8 +126,9 @@ How do we decode the time ?
 | $x\times67^3$ | 84 => T (given)        | $t_2$ |
 | $x\times67^3$ | 70 => F (given)        | $t_3$ |
 | $x\times67^3$ | ...                    | $t_n$ |
-We can reverse the length of the flag and just do an simple cross product to find each flag's value, have fun 😈
 
+We can reverse the length of the flag and just do an simple cross product to find each flag's value, have fun 😈
+<br>
 #### Try 3 : Throw at specific value with a nice compare
 We can't use ``=`` but we can still make compares !
 ```python
@@ -157,9 +159,11 @@ def gen_payload2(rev_pos,chr):
 ```
 
 
+<br><br>
 
 ---
 
+<br><br>
 
 ## ***Calc*** | Auditing Audithook
 ### The challenge
@@ -213,7 +217,7 @@ print(safe_eval(_exit, expr))
 ```
 
 The calculator thingy can be bypassed easily by just using a number at the start of our payload. We will see later, don't worry
-
+<br>
 ### Solving process
 It's not a first time audit hooks appear in CTFs. Tho there is a critical difference here. Let's simplify the jail further to compare it to **MyJail** from *NBCTF2023* (archived challenge can be found [here](https://github.com/salvatore-abello/pyjail/blob/main/NBCTF%202023/MyJail.py)) :
 ```python
@@ -255,7 +259,7 @@ What can we do ?
 - explore audithook's internals and "modify" ``hook`` ?
 - explore Python's memory and "modify" ``hook`` ?
 - access ``hook`` from "inside" instead of outside 👀
-
+<br>
 ### Bypassing ``hook`` from the inside
 Audithooks trigger at [certain events](https://docs.python.org/3/library/audit_events.html#audit-events). If we look at the ``import`` event it says
 > `module`, `filename`, `sys.path`, `sys.meta_path`, `sys.path_hooks`
@@ -278,7 +282,7 @@ dict_keys(['sys', 'builtins', '_frozen_importlib', '_imp', '_thread', '_warnings
 Wow 🤩 That's a lot of modules to work with ! Most are out of audithooks' events too 😈
 If we ignore the Windows modules (no I won't apology for that) we can search in each frozen modules for gold.
 I will spoil it, ``_signal`` is where gold is hidden. There is some good stuff in ``_frozen_importlib`` and ``_imp`` too but when they go to read a file they execute ``os.listdir``, raising an event 😭 You can also tinker with *debug traces*, ``_thread`` and other *builtin modules* (loadable with ``_frozen_importlib``) but in my testing I didn't achieve anything substantial (*skill issue* 🙄)
-
+<br>
 ### Signaling we escaped 😎
 Audithooks block ``sys._current_frames``, ``sys._getframe`` and ``sys._getframemodulename`` to protect the code from being tampered with. We can't call this functions but what if the ``frame`` object came to us directly 😇 ?
 For that we are going to use [signals](https://docs.python.org/3/library/signal.html).  We can create a signal using ``signal.signal(signalnum, handler)`` ([ref](https://docs.python.org/3/library/signal.html#signal.signal))
@@ -338,7 +342,7 @@ lambda n,f:f.f_back.f_locals['hook'].__closure__[0].__setattr__('cell_contents',
 # Output
 (0, <module '_signal' (built-in)>, <built-in function default_int_handler>, None, 'well_done')
 ```
-
+<br><br>
 ## Closing note
 Overall pretty interesting PyJails 💖 They were well guided with their really distinct little details, the left over ``ord`` in Ok Nice and all the function setup in Calc.
 As always we learned a lot about Python internals and what a madness it is in there 😋 Ok Nice was based more on our Python skills and creativity to get the flag, while Calc was more on Python internals (sys, \_signal, frames, closure, ...)
