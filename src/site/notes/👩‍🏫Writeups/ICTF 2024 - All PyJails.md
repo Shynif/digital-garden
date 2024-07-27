@@ -71,14 +71,13 @@ What we can aim for :
 - get flag's characters one by one (needs numbers -> possible)
 	- throw at specific value (needs a way to throw in our context -> surely needs compare)
 	- timing attack (needs a long execution time based on value -> surely needs loops)
-
 #### Making numbers
 To access a specific character from the flag we need numbers. We have
 - 0 => ``False``
 - 1 => ``True``
 - n => ``True+True+...+True`` (we don't have a limit in length)
 - -n => ``-True-True-...-True``
-<br>
+
 #### Try 1 : low hanging fruits
 ```python
 {...}[flag[True]] # Dictionnary access, but no {} allowed
@@ -86,7 +85,7 @@ To access a specific character from the flag we need numbers. We have
 for(a)in(range(ord(flag[True]))):ord(flag[True])  # Hmmmmmm, no for and range in 'eval' tho
 [ord(flag[True])for(a)in(range(ord(flag[True])))] # Hmmmmmmmmmm
 ```
-<br>
+
 #### Try 2 : timing attack with homemade range and "for loop"
 How can we make a ``range`` ? Easy ! With **slices** !
 ```python
