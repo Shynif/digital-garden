@@ -39,18 +39,18 @@ while True:
     
     for i in blacklist:
         if i in inp:
-            print("ok nice, bl")                                               ### NEW
+            print("ok nice, bl") ### NEW
             exit(0)
     
     for i in inp:
         if (ord(i) > 125) or (ord(i) < 40) or (len(set(inp))>17):
             print("ok nice, ct", (ord(i) > 125), (ord(i) < 40), len(set(inp))) ### NEW
-            print(inp)                                                         ### NEW
-            print("".join("#" if (ord(c) < 40) else "_" for c in inp))         ### NEW
+            print(inp) ### NEW
+            print("".join("#" if (ord(c) < 40) else "_" for c in inp)) ### NEW
             exit(0)
     
     try:
-        eval(inp,{'__builtins__':None,'ord':ord,'flag':flag})                  ### NEW
+        eval(inp,{'__builtins__':None,'ord':ord,'flag':flag}) ### NEW
         print("ok nice, eval-ed")
     except:
         print("error")
@@ -353,7 +353,8 @@ If you want to read and discover more about **Audithooks-based PyJails**, I reco
 - [PEP 578 – Python Runtime Audit Hooks](https://peps.python.org/pep-0578/)
 - [Python Jail Escape CSAW Finals 2023](https://wachter-space.de/2023/11/12/csaw23-python-jail-escape/)
 
-<br><br>
+<br><br><br>
+
 ​		***See you next time! (˵ ͡~ ͜ʖ ͡°˵)ﾉ⌒♡\*:･。.***
 
 <p style="font-family:'Courier New',monospace;margin-left:70%">hey<br>ily<br>shy</p>
