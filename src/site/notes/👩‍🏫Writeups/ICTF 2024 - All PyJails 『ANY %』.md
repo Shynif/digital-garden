@@ -339,7 +339,7 @@ lambda n,f:f.f_back.f_locals['hook'].__closure__[0].__setattr__('cell_contents',
 (0, <module '_signal' (built-in)>, <built-in function default_int_handler>, None, 'well_done')
 ```
 
-# Closing note
+## Closing note
 Overall pretty interesting PyJails 💖 They were well guided with their really distinct little details, the left over ``ord`` in Ok Nice and all the function setup in Calc.
 As always we learned a lot about Python internals and what a madness it is in there 😋 Ok Nice was based more on our Python skills and creativity to get the flag, while Calc was more on Python internals (sys, \_signal, frames, closure, ...)
 For **Calc**, one inspiration to find a bypass would be by looking at what was previously made. Audithooks are pwned since Python 3.8 and there are some places where it is ~~randomly~~ discussed, for instance [on Github](https://github.com/python/cpython/issues/87604)
