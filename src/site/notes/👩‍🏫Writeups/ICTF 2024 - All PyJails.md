@@ -60,6 +60,7 @@ Now we can easily know *what blocked* and *where* if it's a banned character
 
 <br>
 ### Solving process
+
 1️⃣ First we don't have full execution (comes with an ``exec``) but we have an ``eval``. Meaning we *"""can't"""* write Python code but only *expressions* (No functions or statements). We don't care because we don't have builtins but it's something to note
 2️⃣ Secondly we can't use the UTF8 tricks because the characters' value are limited
 3️⃣ Thirdly we have a pretty small and easy to deal with blacklist but they block easy ideas. There is a character set limit too that will only block us later and will ask us for optimization
