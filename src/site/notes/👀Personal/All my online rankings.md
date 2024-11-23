@@ -8,8 +8,8 @@
 - <img src="https://projecteuler.net/profile/Shynif.png">
 # Long running CTFs
 - [Newbie Contest](https://www.newbiecontest.org/index.php?page=info_membre&id=95667)
-- HackTheBox (2/469 challenges + 7 first machines)
-- [Challenge-OSINT.fr](https://ctf.challenge-osint.fr/teams) (56th)
+- HackTheBox
+- [Challenge-OSINT.fr](https://ctf.challenge-osint.fr/teams)
 - [Ozint.eu](https://ozint.eu/ozinter/11002/)
 - <a href="https://www.root-me.org/Shynif"><img src="https://root-me-diff.vercel.app/rm-gh?nickname=Shynif&gstats=show"></a>
 
