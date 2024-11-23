@@ -3,6 +3,8 @@
 ---
 
 > Mise au propre au format "Wiki" de ma "rapide [présentation](https://cdn.discordapp.com/attachments/1199799981985505401/1199800216799420608/Python.pdf?ex=65df8b86&is=65cd1686&hm=782d635fb0f107561c6bf50fe59870e471819cd4420733892515726c51326b80&)" de Python
+
+🚧 Tout est en cours d'écriture 🚧
 # Sommaire
 ## Basiques
 - [[📝Notes/🐍Python/Basiques/Args et kwargs\|Args et kwargs]]
@@ -16,11 +18,15 @@
 
 { .block-language-dataview}
 
+<br><br>
+
 
 > [!WARNING]
 > These ~~videos~~ *docs* are not light entertainment.  They require careful viewing and actual thinking.  You may often stop ~~a video~~ *on a page* to digest what you've just seen, and perhaps to skip back and view it again.  To accompany the ~~videos~~ *docs*, coffee will be better than popcorn.
 > <div style="margin-left:70%"><a href="https://lamport.azurewebsites.net/video/videos.html">- <i>The TLA+ Video Course</i></a></div>
 
+
+<br><br><br>
 
 # A propos
 Bonjour 👋 Si vous lisez ce dernier passage c'est que :
