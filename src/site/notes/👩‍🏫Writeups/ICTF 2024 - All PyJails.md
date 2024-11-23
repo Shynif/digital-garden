@@ -59,6 +59,7 @@ while True:
 Now we can easily know *what blocked* and *where* if it's a banned character
 
 <br>
+
 ### Solving process
 
 1️⃣ First we don't have full execution (comes with an ``exec``) but we have an ``eval``. Meaning we *"""can't"""* write Python code but only *expressions* (No functions or statements). We don't care because we don't have builtins but it's something to note
