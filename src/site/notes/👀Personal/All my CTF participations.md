@@ -3,6 +3,10 @@
 ---
 
 # All my CTF participations
+- [[🗃CTF  details/2024/ECW-2024\|ECW 2024 Finals]]
+- [[🗃CTF  details/2024/ECW-2024\|ECW 2024]] ⭐
+- NoBrackets CTF 2024 👷
+- CSAW 2024 ⭐
 - [[🗃CTF  details/2024/Breizh-CTF-2024\|Breizh CTF 2024]]
 - FCSC 2024 & Amateurs CTF 2024
 - Hackday 2024 Finals ☕
