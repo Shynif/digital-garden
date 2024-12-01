@@ -15,7 +15,7 @@
 > 
 > Format du flag : `NBCTF{...}` ou sa version chiffrée
 
-Vous pouvez télécharger le jeu [ici](antoine.rocks/WU_files/desktop_friend.zip) (quand mon serveur est up, soit 1 semaine sur 2 😓)
+Vous pouvez télécharger le jeu [ici](https://antoine.rocks/WU_files/desktop_friend.zip) (quand mon serveur est up, soit 1 semaine sur 2 😓)
 
 **CheatEngine**:
 - **Unknown initial values** avec des valeurs de type **All**
