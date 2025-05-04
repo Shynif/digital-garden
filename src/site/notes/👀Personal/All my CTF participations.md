@@ -5,6 +5,7 @@
 # All my CTF participations
 - [[🗃CTF  details/2025/Breizh-CTF-2025\|Breizh CTF 2025]]
 - Hackday 2025
+- TRACS 2024
 - [[🗃CTF  details/2024/ECW-2024\|ECW 2024 Finals]]
 - [[🗃CTF  details/2024/ECW-2024\|ECW 2024]] ⭐
 - NoBrackets CTF 2024 👷
