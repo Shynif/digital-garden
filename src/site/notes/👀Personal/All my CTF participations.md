@@ -3,6 +3,7 @@
 ---
 
 # All my CTF participations
+- [[🗃CTF  details/2025/DaVinciCTF-2025\|DaVinciCTF 2025]] 🥇
 - [[🗃CTF  details/2025/Breizh-CTF-2025\|Breizh CTF 2025]]
 - Hackday 2025
 - TRACS 2024
@@ -35,6 +36,7 @@
 
 ---
 
+>🥇: Won CTF
 >⭐: Qualified for finals
 >👷: Challenge maker
 >☕: Played with [C₈Hack₁₀N₄O₂](https://ctftime.org/team/276420)
