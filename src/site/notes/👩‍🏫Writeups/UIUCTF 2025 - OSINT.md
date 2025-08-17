@@ -4,7 +4,7 @@
 
 # UIUCTF 2025 - OSINT ┻┳|･ω･)
 
-## Mr. Blue Sky suite
+## <a name="Mr. Blue Sky suite">Mr. Blue Sky suite</a>
 ### Mr. Blue Sky
 > Mr. Blue Sky is your average go-lucky **BlueSky** user, but is there something more to his profile? See if you can find anything on [his profile](https://bsky.app/profile/mrbluesky1989.bsky.social)
 
@@ -157,7 +157,7 @@ And voilà! We get our flag and astrology trauma forever! 🥰💖♋
 
 ---
 
-## Geoguesser Suite
+## <a name="Geoguesser Suite">Geoguesser Suite</a>
 ### park
 > This picture was taken in a park. Find the name of the park.
 
