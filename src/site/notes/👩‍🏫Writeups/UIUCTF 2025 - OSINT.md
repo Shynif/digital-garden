@@ -4,7 +4,7 @@
 
 # UIUCTF 2025 - OSINT ┻┳|･ω･)
 
-## <a name="Mr. Blue Sky suite">Mr. Blue Sky suite</a>
+## Mr. Blue Sky suite
 ### Mr. Blue Sky
 > Mr. Blue Sky is your average go-lucky **BlueSky** user, but is there something more to his profile? See if you can find anything on [his profile](https://bsky.app/profile/mrbluesky1989.bsky.social)
 
@@ -29,7 +29,7 @@ But if we look into the Starter kit [*My Favorite Places on BlueSky*](https://bs
 ![Pasted image 20250817170202.png](/img/user/imgTypora/Pasted%20image%2020250817170202.png)
 
 Ok! Pretty easy challenge, let's keep on moving!
-
+<br><br>
 ### Bad Blood
 > Mr. Blue Sky is just trying his best to build a following, but he's been trying to *hide interactions* from a particular troll! See if you can find something on that *user's profile*.
 
@@ -59,6 +59,7 @@ And on this profile we have our flag!
 
 ![Pasted image 20250817175852.png](/img/user/imgTypora/Pasted%20image%2020250817175852.png)
 
+<br><br>
 ### BONUS: Bypass 2 challenges in 10 seconds
 Ok you know in crypto we sometimes crack the challenge by using some known clear text? Usually the **flag format**. In our case it will be ``uiuctf{...}`` (maybe upper cased).
 
@@ -70,7 +71,7 @@ Well that was easy.
 
 Why didn't the challmaker think about it? My theory is that they are too used to OSINT on Twitter.
 Twitter wouldn't have found the accounts as the search feature is pretty limited (I believe on purpose) and you need some large analysis to do the same. But on BlueSky, the all mighty powerful API has a pretty broad search engine. Flags are nowhere safe 😈
-
+<br><br>
 ### Age of Aquarius
 > Now that we know about Mr. Blue Sky's troll, we can learn more about *her*. It looks like she's got a *birthday party coming up*, can you figure out *in which country (and province or state, if relevant)*?
 
@@ -153,11 +154,11 @@ Now let's try to read the chart and reverse it!
 ![Pasted image 20250817191324.png](/img/user/imgTypora/Pasted%20image%2020250817191324.png)
 
 And voilà! We get our flag and astrology trauma forever! 🥰💖♋
-
+<br><br>
 
 ---
-
-## <a name="Geoguesser Suite">Geoguesser Suite</a>
+<br><br>
+## Geoguesser Suite
 ### park
 > This picture was taken in a park. Find the name of the park.
 
@@ -199,7 +200,7 @@ If we click on the article we find that it is about the "Big in Japan" exhibitio
 
 > Note: If we still did not find anything. Another last resort trick would be using a VPN in the US (where challmakers are) to have the closest information from Google that the challmakers had when making and validating the challenge.
 
-
+<br><br><br>
 
 ## Recap
 
